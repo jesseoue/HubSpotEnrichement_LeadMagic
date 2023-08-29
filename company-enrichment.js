@@ -11,7 +11,7 @@ exports.main = async (event) => {
   const options = {
     method: 'GET',
     headers: {
-      'X-BLOBR-KEY': process.env.LEADMAGICAPI
+      'X-LM-KEY': process.env.LEADMAGICAPI
     }
   };
 
